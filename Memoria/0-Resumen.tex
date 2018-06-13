@@ -1,0 +1,14 @@
+\newgeometry{top=1.6cm,bottom=2cm,left=2cm,right=2cm}
+\chapter*{Resumen}
+\setlength{\parskip}{1ex}
+
+La tecnología ha experimentado un crecimiento exponencial en los últimos tiempos, lo que se traduce en una acentuada presencia en la vida cotidiana y profesional de elementos relativos a campos de la ingeniería como la robótica, siendo cada vez más y más importante especialistas formados en esta materia. Así, surgen recientemente entornos que acercan a los alumnos de distintas etapas la posibilidad de adquirir competencias en robótica, como JdeRobot-Academy, que pone a disposición de los estudiantes universitarios la forma de enfrentarse a problemas clásicos de la robótica de forma sencilla, completa y eficaz. Para ello, se apoya en diferentes prácticas, cada una de las cuales trata de enfrentar un problema diferente en un entorno simulado, o incluso con hardware real, con distintos modelos de robot y de entorno.
+
+Este proyecto se ha centrado en la elaboración de dos nuevas prácticas para la plataforma académica de JdeRobot, desarrollándolas desde cero, para comprender las dimensiones de un proyecto real de ingeniería y toda la infraestructura que hay bajo él. Así las cosas, se han creado dos prácticas que solucionan el nodo académico que da soporte a la práctica, la comunicación entre el nodo y el robot, la simulación (incluyendo modelos y mundos) en Gazebo y la interfaz gráfica, permitiendo a potenciales alumnos abstraerse de las complejidades involucradas en todos estos módulos y así poder centrarse en la resolución de las prácticas a través del algoritmo propuesto. 
+
+La primera de las prácticas que se ha creado es \textit{``Follow Face''}, que permitirá al alumno trabajar con hardware real (cámara Sony Evi d100p) e introducir la lógica que programe en él. Esta práctica persigue que el alumno ponga en práctica o adquiera conocimientos de procesado de imagen, empleando clasificadores en cascada para discernir si una imagen de entrada al sistema contiene caras o no, y en caso afirmativo las persiga.
+
+La segunda práctica, \textit{``Laser Loc''}, buscará resolver un problema de localización basada en láser, en el cual el estudiante deberá valerse del método de filtro de partículas de la familia de algoritmos secuenciales de Montecarlo para lograr que un robot realice estimaciones de posición con errores tolerables máximos en un mundo desconocido, del cual se proporciona un mapa binario.
+
+Por último, se ha investigado una serie de herramientas, entre las cuales destacan el \textit{middleware} ROS y la plataforma Jupyter, que se ha tratado de incorporar al proyecto para poner los cimientos de unas prácticas multiplataforma.
+\restoregeometry

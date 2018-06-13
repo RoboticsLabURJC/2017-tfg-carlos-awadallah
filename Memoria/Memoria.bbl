@@ -1,0 +1,233 @@
+\begin{thebibliography}{10}
+
+\bibitem{robotics1}
+John~J. Craig.
+\newblock {\em {Introduction to Robotics: Mechanics and Control}}.
+\newblock 1986.
+
+\bibitem{robotics2}
+Simone Ceriani and Martino Migliavacca.
+\newblock {\em {Middleware in robotics. Advanced Methods of Information
+  Technology for Autonomous Robotics}}.
+
+\bibitem{robotics3}
+J.~Baillie, A.~Demaille, Q.~Hocquet, M.~Nottale, and S~Tardieu.
+\newblock {\em {The Urbi Universal Platform for Robotics. Simulation, Modeling
+  and Programming for Autonomous Robots}}.
+
+\bibitem{robotics4}
+Historia de la rob\'otica.
+\newblock
+  \url{http://wiki.robotica.webs.upv.es/wiki-de-robotica/introduccion/historia/}.
+
+\bibitem{robotics5}
+Herman Bruyninckx and Peter Soetens.
+\newblock {The OROCOS Project}.
+\newblock
+  \url{https://people.mech.kuleuven.be/~orocos/pub/stable/documentation/rtt/v1.10.x/doc-xml/orocos-overview.html},
+  2007.
+
+\bibitem{robotics6}
+Cyberbotics.
+\newblock {Webots}.
+\newblock \url{https://www.cyberbotics.com/webots.php}, 2015.
+
+\bibitem{robotics7}
+AForge.NET.
+\newblock {AForge.NET Framework}.
+\newblock \url{http://www.aforgenet.com/framework/}.
+
+\bibitem{robotics8}
+{Simulaci\'on en Gazebo}.
+\newblock
+  \url{https://robologs.net/2016/06/25/gazebo-simulator-simular-un-robot-nunca-fue-tan-facil/}.
+
+\bibitem{robotics9}
+{Definici\'on de Robot}.
+\newblock \url{http://conceptodefinicion.de/robot/}.
+
+\bibitem{robotics10}
+{Definici\'on de Rob\'otica}.
+\newblock \url{https://www.definicionabc.com/tecnologia/robotica.php}.
+
+\bibitem{robotics11}
+Educatronics.
+\newblock {Importancia de la Rob\'otica en la Educaci\'on. Ciencia, arte y
+  arquitectura}.
+\newblock
+  \url{http://educatronics.com/publicaciones/importancia-de-la-rob\%C3\%B3tica-en-la-educacion}.
+
+\bibitem{robotics12}
+J.M. Ca'nas, A.~Mart\'i, E.~Perdices, F.~Rivas, and R.~Calvo.
+\newblock {Entorno docente para la programaci\'on de la inteligencia de los
+  robots. Iberoamericana de Autom\'atica e Inform\'atica Industrial}, 2016.
+
+\bibitem{robotics13}
+Rob\'otica en~la Universidad~de Alcal\'a.
+\newblock {Proyecto TuBot 2015,\textit{Alcabot}}.
+\newblock
+  \url{http://asimov.depeca.uah.es/robotica/mod/resource/view.php?id=1188},
+  2015.
+
+\bibitem{desarrollo1}
+Galo~Fari'no R.
+\newblock {Modelo Espiral de un proyecto de desarrollo de software,
+  Administraci\'on y Evaluaci\'on de Proyectos.}
+\newblock \url{http://www.ojovisual.net/galofarino/modeloespiral.pdf}.
+
+\bibitem{desarrollo2}
+{Modelo de desarrollo en Espiral}.
+\newblock
+  \url{https://pdfs.semanticscholar.org/presentation/2403/7678f5cfd0d23d1a7d59b9b9ff2babc31d99.pdf}.
+
+\bibitem{simulacion1}
+{Simulador Gazebo}.
+\newblock \url{https://dev.px4.io/en/simulation/gazebo.html}.
+
+\bibitem{jderobot1}
+J.M Ca'nas.
+\newblock {Programaci\'on de robots con la plataforma Jderobot}, 2009.
+
+\bibitem{jderobot2}
+Jos\'e~M. Ca'nas, Jos\'e~A. Fern\'andez, Diego Jim\'enez, and Jorge Vela.
+\newblock {Programaci\'on de aplicaciones para drones con el entorno software
+  JdeRobot.}, 2018.
+
+\bibitem{python1}
+{\textquestiondown Qu\'e es Python?}
+\newblock \url{https://www.python.org/doc/essays/blurb/}.
+
+\bibitem{python2}
+{Historia de Python}.
+\newblock \url{https://www.codejobs.biz/es/blog/2013/03/03/historia-de-python}.
+
+\bibitem{opencv1}
+{Descripci\'on de OpenCV}.
+\newblock \url{https://opencv.org/about.html}.
+
+\bibitem{sdf1}
+{Definici\'on del fromato SDF}.
+\newblock \url{http://sdformat.org/}.
+
+\bibitem{pyqt1}
+{Qu\'e es y para qu\'e se usa la biblioteca PyQt5}.
+\newblock \url{https://pypi.org/project/PyQt5/}.
+
+\bibitem{pyqt2}
+{PyQt5}.
+\newblock \url{https://www.riverbankcomputing.com/software/pyqt/intro}.
+
+\bibitem{jupyter1}
+{Plataforma Jupyter, p\'agina oficial.}
+\newblock \url{http://jupyter.org/}.
+
+\bibitem{jupyter2}
+{Gu\'ia de Jupyter Notebook}.
+\newblock
+  \url{https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook}.
+
+\bibitem{jupyter3}
+{Jupyter Notebook, descripci\'on del proyecto}.
+\newblock
+  \url{http://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/What\%20is\%20the\%20Jupyter\%20Notebook.ipynb\#}.
+
+\bibitem{jupyter4}
+{IPython3}.
+\newblock \url{https://ipython.org/ipython-doc/3/whatsnew/version3.html}.
+
+\bibitem{camara1}
+{Manual de la c\'amara Sony Evi d100p}.
+\newblock
+  \url{https://www.manualslib.com/manual/157936/Sony-Evi-D100.html?page=3#manual}.
+
+\bibitem{camara2}
+{Digitalizadora Dazzle DVD Recorder HD}.
+\newblock \url{http://www.informaticamoderna.com/Captura_video_externo.htm}.
+
+\bibitem{camara3}
+{Driver usb\_cam}.
+\newblock \url{http://wiki.ros.org/usb_cam}.
+
+\bibitem{followface1}
+{Algoritmos de detecci\'on de caras}.
+\newblock
+  \url{https://en.wikipedia.org/wiki/Face_detection#Definition_and_related_algorithms}.
+
+\bibitem{followface2}
+{Face Detection And Recognition}.
+\newblock \url{https://facedetection.com/algorithms/}.
+
+\bibitem{followface3}
+{Detecci\'on de rostros con OpenCV}.
+\newblock \url{https://www.superdatascience.com/opencv-face-detection/}.
+
+\bibitem{followface4}
+Paul Viola and Michael~J. Jones.
+\newblock {Robust Real-Time Face Detection}.
+\newblock
+  \url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.93.8268&rep=rep1&type=pdf}.
+
+\bibitem{followface5}
+Shai Shalev-Shwartz and Shai Ben-David.
+\newblock {Understanding Machine Learning: From Theory to Algorithms}, 2014.
+
+\bibitem{matplotlib}
+{Librer\'ia Matplotlib}.
+\newblock \url{https://matplotlib.org/users/pyplot_tutorial.html}.
+
+\bibitem{types}
+{Biblioteca types de Python}.
+\newblock \url{https://docs.python.org/2/library/types.html}.
+
+\bibitem{laserloc1}
+{Sensor l\'aser}.
+\newblock
+  \url{http://wiki.robotica.webs.upv.es/wiki-de-robotica/sensores/sensores-proximidad/sensor-laser/}.
+
+\bibitem{laserloc2}
+{What is odometry?}
+\newblock
+  \url{https://groups.csail.mit.edu/drl/courses/cs54-2001s/odometry.html}.
+
+\bibitem{laserloc3}
+{Topics de ROS}.
+\newblock \url{http://wiki.ros.org/Topics}.
+
+\bibitem{laserloc4}
+M.~Isard and A.~Blake.
+\newblock {Condensation-conditional density propagation for visual tracking}.
+\newblock Int. J. Computer Vision, in press, 1998.
+
+\bibitem{laserloc5}
+S.~Thrun.
+\newblock {Probabilistic algorithms in robotics}.
+\newblock AI Magazine, 2000.
+
+\bibitem{laserloc6}
+Andrew~S. Glassner.
+\newblock {An Introduction to Ray Tracing}, 1989.
+
+\bibitem{laserloc7}
+Dieter Fox, Wolfram Burgard, Frank Dellaert, and Sebastian Thrun.
+\newblock {Monte Carlo localization: efficient position estimation for mobile
+  robots}.
+\newblock {\em In Proceedings of the 16th AAAI National Conference on
+  Artificial Intelligence}, pages 343--349.
+\newblock Orlando (Florida, USA), July 1999.
+
+\bibitem{laserloc8}
+]~D.J.C. Mackay.
+\newblock {Introduction to Monte Carlo methods}.
+\newblock Cambridge University.
+
+\bibitem{laserloc9}
+J.~Alvarez Cedillo, E.~Acosta Gonzaga, J.~Herrera Lozada, T.~Alvarez Sanchez,
+  J.~Sandoval Gutierrez, and M.~Aguilar Fernandez.
+\newblock {PARTICLE FILTER BASED LOCALIZATION FOR A MOBILE ROBOT}.
+\newblock {\em DYNA New Technologies}, 2017.
+
+\bibitem{kobuki}
+{Robot Kobuki }.
+\newblock \url{http://kobuki.yujinrobot.com/wiki/online-user-guide/}.
+
+\end{thebibliography}
