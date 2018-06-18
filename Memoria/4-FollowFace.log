@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.11)  17 JUN 2018 17:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.11)  18 JUN 2018 13:44
 entering extended mode
 **./4-FollowFace.tex
 (4-FollowFace.tex
@@ -1593,7 +1593,7 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 9--10
 
 ! Undefined control sequence.
 l.11 \section
-             {Infraestructura desarrollada}
+             {Infraestructura}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1608,7 +1608,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.11 \section{I
-               nfraestructura desarrollada}
+               nfraestructura}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -1626,18 +1626,6 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no E in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -3994,6 +3982,15 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ( in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 4 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no : in font nullfont!
 
@@ -4014,16 +4011,6 @@ Overfull \hbox (35.1131pt too wide) in paragraph at lines 60--62
 
 Overfull \hbox (46.52522pt too wide) in paragraph at lines 60--62
 \OT1/cmr/m/it/10 roslaunch[]
- []
-
-
-Overfull \hbox (32.89565pt too wide) in paragraph at lines 60--62
-\OT1/cmr/bx/n/10 Figura
- []
-
-
-Overfull \hbox (14.69437pt too wide) in paragraph at lines 60--62
-\OT1/cmr/bx/n/10 4.4 
  []
 
 
@@ -4339,6 +4326,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no z in font nullfont!
@@ -4464,6 +4452,15 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no a in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
 Missing character: There is no : in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 73--74
@@ -4488,16 +4485,6 @@ Overfull \hbox (17.37766pt too wide) in paragraph at lines 73--74
 
 Overfull \hbox (41.43306pt too wide) in paragraph at lines 73--74
 \OT1/cmr/m/it/10 IP:puerto
- []
-
-
-Overfull \hbox (32.89565pt too wide) in paragraph at lines 73--74
-\OT1/cmr/bx/n/10 Figura
- []
-
-
-Overfull \hbox (14.69437pt too wide) in paragraph at lines 73--74
-\OT1/cmr/bx/n/10 4.5 
  []
 
 
@@ -22671,27 +22658,18 @@ Overfull \hbox (13.05559pt too wide) in paragraph at lines 258--259
 
 ! Undefined control sequence.
 l.260     \includegraphics
-                          [width=0.99\linewidth]{figures/snippet1ff.png}
+                          [width=0.98\linewidth, height=17cm]{figures/snippe...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Missing number, treated as zero.
-<to be read again> 
-                   ]
-l.260     \includegraphics[width=0.99\linewidth]
-                                                {figures/snippet1ff.png}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
-                   ]
-l.260     \includegraphics[width=0.99\linewidth]
-                                                {figures/snippet1ff.png}
+                   h
+l.260     \includegraphics[width=0.98\linewidth, h
+                                                  eight=17cm]{figures/snippe...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -22700,8 +22678,8 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-Overfull \hbox (151.2504pt too wide) in paragraph at lines 260--262
- \OT1/cmr/m/n/10 [width=0.99]figures/snippet1ff.png 
+Overfull \hbox (208.75053pt too wide) in paragraph at lines 260--262
+ \OT1/cmr/m/n/10 [width=0.98height=17cm]figures/snippet1ff.png 
  []
 
 
@@ -23476,8 +23454,8 @@ Overfull \hbox (19.19449pt too wide) in paragraph at lines 265--267
  []
 
 
-Overfull \hbox (11.11113pt too wide) in paragraph at lines 265--267
-\OT1/cmr/m/n/10 la-
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 265--267
+\OT1/cmr/m/n/10 la
  []
 
 
@@ -26255,7 +26233,7 @@ Overfull \hbox (28.77786pt too wide) in paragraph at lines 300--301
 
 
 Overfull \hbox (20.55562pt too wide) in paragraph at lines 300--301
-\OT1/cmr/m/n/10 4.13.
+\OT1/cmr/m/n/10 4.14.
  []
 
 
@@ -30265,7 +30243,7 @@ Overfull \hbox (28.77786pt too wide) in paragraph at lines 325--326
 
 
 Overfull \hbox (21.66673pt too wide) in paragraph at lines 325--326
-\OT1/cmr/m/n/10 4.14)
+\OT1/cmr/m/n/10 4.15)
  []
 
 
@@ -32285,7 +32263,7 @@ Overfull \hbox (32.66676pt too wide) in paragraph at lines 339--340
 
 
 Overfull \hbox (21.66673pt too wide) in paragraph at lines 339--340
-\OT1/cmr/m/n/10 4.15)
+\OT1/cmr/m/n/10 4.16)
  []
 
 
@@ -33164,11 +33142,11 @@ Overfull \hbox (225.61165pt too wide) in paragraph at lines 351--351
 
  
 Here is how much of TeX's memory you used:
- 23 strings out of 493305
- 356 string characters out of 3132359
- 176073 words of memory out of 3000000
- 3672 multiletter control sequences out of 15000+200000
- 4294 words of font info for 16 fonts, out of 3000000 for 9000
+ 21 strings out of 493305
+ 335 string characters out of 3132359
+ 176065 words of memory out of 3000000
+ 3671 multiletter control sequences out of 15000+200000
+ 3986 words of font info for 15 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  20i,7n,18p,1399b,210s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!

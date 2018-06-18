@@ -12,63 +12,74 @@
 \BOOKMARK [2][-]{subsection.1.3.3}{Ejercicios recientes}{section.1.3}% 12
 \BOOKMARK [0][-]{chapter.2}{Objetivos}{}% 13
 \BOOKMARK [1][-]{section.2.1}{Objetivos}{chapter.2}% 14
-\BOOKMARK [1][-]{section.2.2}{Requisitos previos}{chapter.2}% 15
+\BOOKMARK [1][-]{section.2.2}{Requisitos}{chapter.2}% 15
 \BOOKMARK [1][-]{section.2.3}{Metodolog\355a}{chapter.2}% 16
 \BOOKMARK [1][-]{section.2.4}{Plan de trabajo}{chapter.2}% 17
 \BOOKMARK [0][-]{chapter.3}{Infraestructura}{}% 18
 \BOOKMARK [1][-]{section.3.1}{Simulador Gazebo}{chapter.3}% 19
-\BOOKMARK [1][-]{section.3.2}{Framework JdeRobot}{chapter.3}% 20
-\BOOKMARK [1][-]{section.3.3}{Lenguaje Python}{chapter.3}% 21
-\BOOKMARK [1][-]{section.3.4}{Biblioteca OpenCV}{chapter.3}% 22
-\BOOKMARK [1][-]{section.3.5}{Biblioteca PyQt}{chapter.3}% 23
-\BOOKMARK [1][-]{section.3.6}{IPython 3.0 - Jupyter}{chapter.3}% 24
-\BOOKMARK [0][-]{chapter.4}{Pr\341ctica 1: Detecci\363n y seguimiento de caras con Sony Evi d100p}{}% 25
-\BOOKMARK [1][-]{section.4.1}{Enunciado}{chapter.4}% 26
-\BOOKMARK [1][-]{section.4.2}{Infraestructura}{chapter.4}% 27
-\BOOKMARK [2][-]{subsection.4.2.1}{C\341mara Sony Evi d100p}{section.4.2}% 28
-\BOOKMARK [2][-]{subsection.4.2.2}{Driver ROS usb\137cam}{section.4.2}% 29
-\BOOKMARK [2][-]{subsection.4.2.3}{Driver Teleoperador Evicam}{section.4.2}% 30
-\BOOKMARK [1][-]{section.4.3}{Componente Acad\351mico}{chapter.4}% 31
-\BOOKMARK [2][-]{subsection.4.3.1}{Interfaz gr\341fica}{section.4.3}% 32
-\BOOKMARK [2][-]{subsection.4.3.2}{C\363digo auxiliar: Clase CameraSegment}{section.4.3}% 33
-\BOOKMARK [1][-]{section.4.4}{Soluci\363n de referencia}{chapter.4}% 34
-\BOOKMARK [2][-]{subsection.4.4.1}{Fundamentos de la Detecci\363n de caras}{section.4.4}% 35
-\BOOKMARK [3][-]{subsubsection.4.4.1.1}{Clasificadores M\341quina}{subsection.4.4.1}% 36
-\BOOKMARK [3][-]{subsubsection.4.4.1.2}{Eliminaci\363n de falsos positivos}{subsection.4.4.1}% 37
-\BOOKMARK [2][-]{subsection.4.4.2}{Control PT de la c\341mara}{section.4.4}% 38
-\BOOKMARK [2][-]{subsection.4.4.3}{Gesti\363n de la ``No Detecci\363n''}{section.4.4}% 39
-\BOOKMARK [1][-]{section.4.5}{Experimentaci\363n}{chapter.4}% 40
-\BOOKMARK [2][-]{subsection.4.5.1}{Ejecuci\363n t\355pica}{section.4.5}% 41
-\BOOKMARK [2][-]{subsection.4.5.2}{Comportamiento ante casos extremos}{section.4.5}% 42
-\BOOKMARK [1][-]{section.4.6}{Follow\137Face a trav\351s de Jupyter}{chapter.4}% 43
-\BOOKMARK [0][-]{chapter.5}{Pr\341ctica 2: Autolocalizaci\363n con L\341ser}{}% 44
-\BOOKMARK [1][-]{section.5.1}{Enunciado}{chapter.5}% 45
-\BOOKMARK [1][-]{section.5.2}{Infraestructura}{chapter.5}% 46
-\BOOKMARK [2][-]{subsection.5.2.1}{Modelo Roomba}{section.5.2}% 47
-\BOOKMARK [3][-]{subsubsection.5.2.1.1}{Sensor l\341ser}{subsection.5.2.1}% 48
-\BOOKMARK [3][-]{subsubsection.5.2.1.2}{Sensor Odom\351trico}{subsection.5.2.1}% 49
-\BOOKMARK [2][-]{subsection.5.2.2}{Modelo Asymmetric-Easy-To-Model}{section.5.2}% 50
-\BOOKMARK [2][-]{subsection.5.2.3}{Modelo Choso}{section.5.2}% 51
-\BOOKMARK [2][-]{subsection.5.2.4}{Mundo de Gazebo}{section.5.2}% 52
-\BOOKMARK [1][-]{section.5.3}{Componente Acad\351mico}{chapter.5}% 53
-\BOOKMARK [2][-]{subsection.5.3.1}{Interfaz gr\341fica}{section.5.3}% 54
-\BOOKMARK [2][-]{subsection.5.3.2}{Gr\341fica de los l\341seres Real y Te\363rico}{section.5.3}% 55
-\BOOKMARK [2][-]{subsection.5.3.3}{Mapa de Referencia}{section.5.3}% 56
-\BOOKMARK [3][-]{subsubsection.5.3.3.1}{Part\355culas}{subsection.5.3.3}% 57
-\BOOKMARK [3][-]{subsubsection.5.3.3.2}{Trayectorias}{subsection.5.3.3}% 58
-\BOOKMARK [1][-]{section.5.4}{Comunicaciones con ROS}{chapter.5}% 59
-\BOOKMARK [1][-]{section.5.5}{Soluci\363n de referencia}{chapter.5}% 60
-\BOOKMARK [2][-]{subsection.5.5.1}{Algoritmos de autolocalizaci\363n}{section.5.5}% 61
-\BOOKMARK [2][-]{subsection.5.5.2}{M\351todos de optimizaci\363n}{section.5.5}% 62
-\BOOKMARK [2][-]{subsection.5.5.3}{Soluci\363n desarrollada}{section.5.5}% 63
-\BOOKMARK [1][-]{section.5.6}{Experimentaci\363n}{chapter.5}% 64
-\BOOKMARK [2][-]{subsection.5.6.1}{Ejecuci\363n t\355pica}{section.5.6}% 65
-\BOOKMARK [2][-]{subsection.5.6.2}{Ajuste del tiempo de evoluci\363n de las part\355culas}{section.5.6}% 66
-\BOOKMARK [2][-]{subsection.5.6.3}{Localizaci\363n en movimiento}{section.5.6}% 67
-\BOOKMARK [2][-]{subsection.5.6.4}{Comportamiento ante casos extremos}{section.5.6}% 68
-\BOOKMARK [1][-]{section.5.7}{Laser\137Loc a trav\351s de Jupyter}{chapter.5}% 69
-\BOOKMARK [0][-]{chapter.6}{Conclusiones}{}% 70
-\BOOKMARK [1][-]{section.6.1}{Conclusiones}{chapter.6}% 71
-\BOOKMARK [1][-]{section.6.2}{L\355neas de mejora}{chapter.6}% 72
-\BOOKMARK [1][-]{section.6.3}{Trabajos futuros}{chapter.6}% 73
-\BOOKMARK [0][-]{chapter*.78}{Bibliograf\355a}{}% 74
+\BOOKMARK [1][-]{section.3.2}{Entorno ROS}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.3}{Entorno JdeRobot}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.4}{Lenguaje Python}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.5}{Biblioteca OpenCV}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.6}{Biblioteca PyQt}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.7}{IPython 3.0 - Jupyter}{chapter.3}% 25
+\BOOKMARK [0][-]{chapter.4}{Ejercicio de Detecci\363n y seguimiento de caras con c\341mara PTZ}{}% 26
+\BOOKMARK [1][-]{section.4.1}{Enunciado}{chapter.4}% 27
+\BOOKMARK [1][-]{section.4.2}{Infraestructura}{chapter.4}% 28
+\BOOKMARK [2][-]{subsection.4.2.1}{C\341mara Sony Evi d100p}{section.4.2}% 29
+\BOOKMARK [2][-]{subsection.4.2.2}{Ficheros de configuraci\363n}{section.4.2}% 30
+\BOOKMARK [1][-]{section.4.3}{Nodo Acad\351mico}{chapter.4}% 31
+\BOOKMARK [2][-]{subsection.4.3.1}{Arquitectura software}{section.4.3}% 32
+\BOOKMARK [2][-]{subsection.4.3.2}{Interfaz de sensores y actuadores}{section.4.3}% 33
+\BOOKMARK [2][-]{subsection.4.3.3}{Interfaz gr\341fica y uso desde c\363digo}{section.4.3}% 34
+\BOOKMARK [2][-]{subsection.4.3.4}{C\363digo auxiliar: Clase CameraSegment}{section.4.3}% 35
+\BOOKMARK [2][-]{subsection.4.3.5}{Fichero de configuraci\363n}{section.4.3}% 36
+\BOOKMARK [1][-]{section.4.4}{Soluci\363n de referencia}{chapter.4}% 37
+\BOOKMARK [2][-]{subsection.4.4.1}{Detecci\363n de caras}{section.4.4}% 38
+\BOOKMARK [3][-]{subsubsection.4.4.1.1}{Clasificadores M\341quina}{subsection.4.4.1}% 39
+\BOOKMARK [3][-]{subsubsection.4.4.1.2}{Eliminaci\363n de falsos positivos}{subsection.4.4.1}% 40
+\BOOKMARK [2][-]{subsection.4.4.2}{Control del movimiento de la c\341mara}{section.4.4}% 41
+\BOOKMARK [2][-]{subsection.4.4.3}{Gesti\363n de la ``No Detecci\363n''}{section.4.4}% 42
+\BOOKMARK [1][-]{section.4.5}{Experimentaci\363n}{chapter.4}% 43
+\BOOKMARK [2][-]{subsection.4.5.1}{Ejecuci\363n t\355pica}{section.4.5}% 44
+\BOOKMARK [2][-]{subsection.4.5.2}{Comportamiento ante casos extremos}{section.4.5}% 45
+\BOOKMARK [1][-]{section.4.6}{Cuadernillo Jupyter Acad\351mico}{chapter.4}% 46
+\BOOKMARK [0][-]{chapter.5}{Ejercicio de Autolocalizaci\363n con L\341ser}{}% 47
+\BOOKMARK [1][-]{section.5.1}{Enunciado}{chapter.5}% 48
+\BOOKMARK [1][-]{section.5.2}{Infraestructura desarrollada}{chapter.5}% 49
+\BOOKMARK [2][-]{subsection.5.2.1}{Modelo de robot de interiores con sensor l\341ser}{section.5.2}% 50
+\BOOKMARK [3][-]{subsubsection.5.2.1.1}{Sensor l\341ser}{subsection.5.2.1}% 51
+\BOOKMARK [3][-]{subsubsection.5.2.1.2}{Sensor Odom\351trico}{subsection.5.2.1}% 52
+\BOOKMARK [2][-]{subsection.5.2.2}{Escenario de casa asim\351trica}{section.5.2}% 53
+\BOOKMARK [2][-]{subsection.5.2.3}{Modelo de nave sim\351trica}{section.5.2}% 54
+\BOOKMARK [2][-]{subsection.5.2.4}{Ficheros de configuraci\363n}{section.5.2}% 55
+\BOOKMARK [1][-]{section.5.3}{Nodo Acad\351mico}{chapter.5}% 56
+\BOOKMARK [2][-]{subsection.5.3.1}{Arquitectura software}{section.5.3}% 57
+\BOOKMARK [2][-]{subsection.5.3.2}{Interfaz de sensores y actuadores y c\363digo auxiliar}{section.5.3}% 58
+\BOOKMARK [3][-]{subsubsection.5.3.2.1}{Part\355culas}{subsection.5.3.2}% 59
+\BOOKMARK [2][-]{subsection.5.3.3}{Interfaz gr\341fica y uso desde c\363digo}{section.5.3}% 60
+\BOOKMARK [3][-]{subsubsection.5.3.3.1}{Gr\341fica de los l\341seres Real y Te\363rico}{subsection.5.3.3}% 61
+\BOOKMARK [3][-]{subsubsection.5.3.3.2}{Mapa de Referencia}{subsection.5.3.3}% 62
+\BOOKMARK [3][-]{subsubsection.5.3.3.3}{Trayectorias}{subsection.5.3.3}% 63
+\BOOKMARK [2][-]{subsection.5.3.4}{Comunicaciones con sensores y actuadores}{section.5.3}% 64
+\BOOKMARK [2][-]{subsection.5.3.5}{Fichero de configuraci\363n}{section.5.3}% 65
+\BOOKMARK [1][-]{section.5.4}{Soluci\363n de referencia}{chapter.5}% 66
+\BOOKMARK [2][-]{subsection.5.4.1}{Fundamentos de autolocalizaci\363n basada en filtros de part\355culas}{section.5.4}% 67
+\BOOKMARK [2][-]{subsection.5.4.2}{Soluci\363n desarrollada}{section.5.4}% 68
+\BOOKMARK [3][-]{subsubsection.5.4.2.1}{Inicializaci\363n}{subsection.5.4.2}% 69
+\BOOKMARK [3][-]{subsubsection.5.4.2.2}{Modelo de observaci\363n}{subsection.5.4.2}% 70
+\BOOKMARK [3][-]{subsubsection.5.4.2.3}{Modelo de movimiento}{subsection.5.4.2}% 71
+\BOOKMARK [3][-]{subsubsection.5.4.2.4}{Generaci\363n de la siguiente poblaci\363n}{subsection.5.4.2}% 72
+\BOOKMARK [1][-]{section.5.5}{Experimentaci\363n}{chapter.5}% 73
+\BOOKMARK [2][-]{subsection.5.5.1}{Ejecuci\363n t\355pica}{section.5.5}% 74
+\BOOKMARK [3][-]{subsubsection.5.5.1.1}{Localizaci\363n est\341tica}{subsection.5.5.1}% 75
+\BOOKMARK [3][-]{subsubsection.5.5.1.2}{Localizaci\363n en movimiento}{subsection.5.5.1}% 76
+\BOOKMARK [2][-]{subsection.5.5.2}{Autolocalizaci\363n en situaciones extremas}{section.5.5}% 77
+\BOOKMARK [2][-]{subsection.5.5.3}{Ajuste del modelo de observaci\363n}{section.5.5}% 78
+\BOOKMARK [2][-]{subsection.5.5.4}{Ajuste del Ruido Gaussiano en la generaci\363n de nuevas part\355culas}{section.5.5}% 79
+\BOOKMARK [2][-]{subsection.5.5.5}{Ajuste del tiempo de evoluci\363n de las part\355culas}{section.5.5}% 80
+\BOOKMARK [1][-]{section.5.6}{Cuadernillo Jupyter Acad\351mico}{chapter.5}% 81
+\BOOKMARK [0][-]{chapter.6}{Conclusiones}{}% 82
+\BOOKMARK [1][-]{section.6.1}{Conclusiones}{chapter.6}% 83
+\BOOKMARK [1][-]{section.6.2}{Trabajos futuros}{chapter.6}% 84
+\BOOKMARK [0][-]{chapter*.78}{Bibliograf\355a}{}% 85

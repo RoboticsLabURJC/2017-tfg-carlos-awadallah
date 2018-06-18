@@ -8,7 +8,7 @@ En la solución canónica el alumno deberá programar un algoritmo de segmentaci
 
 El algoritmo canónico de control responde a un control reactivo, que en cada instante actuará en función de los datos de los sensores y sus propias variables internas. El control reactivo permitirá establecer en todo momento el movimiento del robot y responder ante situaciones imprevistas.
 
-\section{Infraestructura desarrollada}
+\section{Infraestructura}
 En este apartado se introducirán los distintos componentes sobre los que se apoya la práctica, principalmente del hardware empleado y sus drivers controladores (Figura 4.1).
 
 \begin{figure}[H]
@@ -85,7 +85,7 @@ El otro \textit{driver} involucrado (\textit{EVIcam}) ha de lanzarse también co
 \begin{figure}[H]
   \begin{center}
     \includegraphics[width=0.99\linewidth]{figures/nodoacademicoff.png}
-		\caption{Nodo Académico de Follow Face}
+		\caption{Diseño de Nodo Académico de Follow Face}
 		\label{fig.nodoff}
 		\end{center}
 \end{figure}
@@ -146,6 +146,13 @@ Los métodos que pone a disposición del alumno son los siguientes:
 \end{itemize}
 Con ellos el estudiante podrá establecer imágenes en el GUI desde su código implementado.
 
+\subsection{Código auxiliar: Clase CameraSegment}
+Dentro del nodo académico existe la clase \textit{CameraSegment}. Esta clase se ha creado por controlar y establecer la visualización de las imágenes que tienen que ver con la práctica, sustituyéndolas por imágenes negras si son nulas o estableciendo el vídeo capturado por la cámara y el vídeo segmentado creado y seleccionado por el programador.
+
+El objeto \textit{self.camera} del cual dispone el algoritmo de percepción y control se construye a partir de ésta clase, por lo cual incluye algunos métodos propios además de los esperados por la cámara. Hablamos de las funciones que permiten mostrar las imágenes en el interfaz, descritas en 4.3.3. Por tanto, actúa de nexo entre la herramienta de segmentación (\textit{segment widget}) y el algoritmo, proporcionando un API fácil de utilizar.
+
+Por último, esta clase actúa de intermediario entre la cámara y el interfaz, conectando ambos componentes. Esto es necesario dado que las imágenes capturadas por la cámara y las que espera el interfaz gráfico no son completamente compatibles: para poder ser visualizadas, las imágenes deben redimensionarse para encajar en la aplicación gráfica.
+
 \subsection{Fichero de configuración}
 El nodo académico requiere un fichero de configuración que indique los \textit{endpoints} que utilizan la cámara y los motores PT. Este archivo tiene extensión \textit{.yml}, lo cual implica que debe seguir el formato de serialización de datos YAML, el cual produce datos fáciles de leer por humanos y máquinas para todos los lenguajes de programación. Tiene el siguiente aspecto:
 
@@ -160,13 +167,6 @@ El nodo académico requiere un fichero de configuración que indique los \textit
 Se puede ver claramente que las interfaces empleadas por cámara y motores son distintas, siendo en el primer caso ROS y en el segundo ICE. Se observa también que puede incluir información adicional, como el formato de imagen.
 
 Por último, el nodo académico incluye dos ficheros de descripción XML, que servirán de entrenamiento para los clasificadores que necesitaremos en la segmentación, explicados con mayor detalle en el apartado 4.4.1.1. 
-
-\subsection{Código auxiliar: Clase CameraSegment}
-Dentro del nodo académico existe la clase \textit{CameraSegment}. Esta clase se ha creado por controlar y establecer la visualización de las imágenes que tienen que ver con la práctica, sustituyéndolas por imágenes negras si son nulas o estableciendo el vídeo capturado por la cámara y el vídeo segmentado creado y seleccionado por el programador.
-
-El objeto \textit{self.camera} del cual dispone el algoritmo de percepción y control se construye a partir de ésta clase, por lo cual incluye algunos métodos propios además de los esperados por la cámara. Hablamos de las funciones que permiten mostrar las imágenes en el interfaz, descritas en 4.3.3. Por tanto, actúa de nexo entre la herramienta de segmentación (\textit{segment widget}) y el algoritmo, proporcionando un API fácil de utilizar.
-
-Por último, esta clase actúa de intermediario entre la cámara y el interfaz, conectando ambos componentes. Esto es necesario dado que las imágenes capturadas por la cámara y las que espera el interfaz gráfico no son completamente compatibles: para poder ser visualizadas, las imágenes deben redimensionarse para encajar en la aplicación gráfica.
 
 \section{Solución de referencia}
 En esta sección, abordaremos brevemente los fundamentos de segmentación y detección de caras y el control reactivo gradual de hardware. Con ello construiremos una solución que se establecerá como solución de referencia, pero que sólo es uno de los muchos posibles métodos con el cual alcanzar el fin. El código quedará recogido en el fichero \textit{MyAlgorithm.py}, que es de naturaleza iterativa, de manera que en cada iteración se percibe, se actúa en consecuencia y se controla. Se implementa dentro del método \textit{execute}, el cual debe contener la lógica que se ejecuta de manera cíclica en el hilo de percepción y control.
