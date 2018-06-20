@@ -1,86 +1,84 @@
 \babel@toc {spanish}{}
-\contentsline {chapter}{\'Indice de figuras}{IX}{chapter*.4}
-\contentsline {chapter}{Acr\'onimos}{X}{chapter*.4}
-\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Rob\IeC {\'o}tica}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Software Rob\IeC {\'o}tico}{4}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Middlewares rob\IeC {\'o}ticos}{5}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Simuladores rob\IeC {\'o}ticos}{6}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Bibliotecas}{7}{subsection.1.2.3}
-\contentsline {section}{\numberline {1.3}Docencia en rob\IeC {\'o}tica}{8}{section.1.3}
+\contentsline {chapter}{\'Indice de figuras}{1}{chapter*.4}
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{2}{chapter.1}
+\contentsline {section}{\numberline {1.1}Rob\IeC {\'o}tica}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Software Rob\IeC {\'o}tico}{5}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Middlewares rob\IeC {\'o}ticos}{6}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Simuladores rob\IeC {\'o}ticos}{7}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Bibliotecas}{8}{subsection.1.2.3}
+\contentsline {section}{\numberline {1.3}Docencia en rob\IeC {\'o}tica}{9}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}Docencia en la universidad}{9}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Entorno Docente JdeRobot-Academy}{9}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Ejercicios recientes}{14}{subsection.1.3.3}
-\contentsline {chapter}{\numberline {2}Objetivos}{16}{chapter.2}
-\contentsline {section}{\numberline {2.1}Objetivos}{16}{section.2.1}
-\contentsline {section}{\numberline {2.2}Requisitos}{17}{section.2.2}
-\contentsline {section}{\numberline {2.3}Metodolog\IeC {\'\i }a}{17}{section.2.3}
-\contentsline {section}{\numberline {2.4}Plan de trabajo}{19}{section.2.4}
-\contentsline {chapter}{\numberline {3}Infraestructura}{21}{chapter.3}
-\contentsline {section}{\numberline {3.1}Simulador Gazebo}{21}{section.3.1}
-\contentsline {section}{\numberline {3.2}Entorno ROS}{23}{section.3.2}
-\contentsline {section}{\numberline {3.3}Entorno JdeRobot}{24}{section.3.3}
-\contentsline {section}{\numberline {3.4}Lenguaje Python}{25}{section.3.4}
-\contentsline {section}{\numberline {3.5}Biblioteca OpenCV}{26}{section.3.5}
-\contentsline {section}{\numberline {3.6}Biblioteca PyQt}{27}{section.3.6}
-\contentsline {section}{\numberline {3.7}IPython 3.0 - Jupyter}{28}{section.3.7}
-\contentsline {chapter}{\numberline {4}Ejercicio de Detecci\IeC {\'o}n y seguimiento de caras con c\IeC {\'a}mara PTZ}{30}{chapter.4}
-\contentsline {section}{\numberline {4.1}Enunciado}{30}{section.4.1}
-\contentsline {section}{\numberline {4.2}Infraestructura}{31}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}C\IeC {\'a}mara Sony Evi d100p}{31}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Ficheros de configuraci\IeC {\'o}n}{33}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Nodo Acad\IeC {\'e}mico}{34}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Arquitectura software}{35}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Interfaz de sensores y actuadores}{35}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Interfaz gr\IeC {\'a}fica y uso desde c\IeC {\'o}digo}{36}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}C\IeC {\'o}digo auxiliar: Clase CameraSegment}{37}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Fichero de configuraci\IeC {\'o}n}{38}{subsection.4.3.5}
-\contentsline {section}{\numberline {4.4}Soluci\IeC {\'o}n de referencia}{39}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Detecci\IeC {\'o}n de caras}{39}{subsection.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.1.1}Clasificadores M\IeC {\'a}quina}{42}{subsubsection.4.4.1.1}
-\contentsline {subsubsection}{\numberline {4.4.1.2}Eliminaci\IeC {\'o}n de falsos positivos}{42}{subsubsection.4.4.1.2}
-\contentsline {subsection}{\numberline {4.4.2}Control del movimiento de la c\IeC {\'a}mara}{44}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Gesti\IeC {\'o}n de la ``No Detecci\IeC {\'o}n''}{46}{subsection.4.4.3}
-\contentsline {section}{\numberline {4.5}Experimentaci\IeC {\'o}n}{46}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Ejecuci\IeC {\'o}n t\IeC {\'\i }pica}{46}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Comportamiento ante casos extremos}{49}{subsection.4.5.2}
-\contentsline {section}{\numberline {4.6}Cuadernillo Jupyter Acad\IeC {\'e}mico}{49}{section.4.6}
-\contentsline {chapter}{\numberline {5}Ejercicio de Autolocalizaci\IeC {\'o}n con L\IeC {\'a}ser}{53}{chapter.5}
-\contentsline {section}{\numberline {5.1}Enunciado}{53}{section.5.1}
-\contentsline {section}{\numberline {5.2}Infraestructura desarrollada}{54}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Modelo de robot de interiores con sensor l\IeC {\'a}ser}{54}{subsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.1.1}Sensor l\IeC {\'a}ser}{55}{subsubsection.5.2.1.1}
-\contentsline {subsubsection}{\numberline {5.2.1.2}Sensor Odom\IeC {\'e}trico}{56}{subsubsection.5.2.1.2}
-\contentsline {subsection}{\numberline {5.2.2}Escenario de casa asim\IeC {\'e}trica}{56}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Modelo de nave sim\IeC {\'e}trica}{58}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Ficheros de configuraci\IeC {\'o}n}{59}{subsection.5.2.4}
-\contentsline {section}{\numberline {5.3}Nodo Acad\IeC {\'e}mico}{61}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Arquitectura software}{62}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Interfaz de sensores y actuadores y c\IeC {\'o}digo auxiliar}{62}{subsection.5.3.2}
-\contentsline {subsubsection}{\numberline {5.3.2.1}Part\IeC {\'\i }culas}{64}{subsubsection.5.3.2.1}
-\contentsline {subsection}{\numberline {5.3.3}Interfaz gr\IeC {\'a}fica y uso desde c\IeC {\'o}digo}{64}{subsection.5.3.3}
-\contentsline {subsubsection}{\numberline {5.3.3.1}Gr\IeC {\'a}fica de los l\IeC {\'a}seres Real y Te\IeC {\'o}rico}{66}{subsubsection.5.3.3.1}
-\contentsline {subsubsection}{\numberline {5.3.3.2}Mapa de Referencia}{67}{subsubsection.5.3.3.2}
-\contentsline {subsubsection}{\numberline {5.3.3.3}Trayectorias}{69}{subsubsection.5.3.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Comunicaciones con sensores y actuadores}{69}{subsection.5.3.4}
-\contentsline {subsection}{\numberline {5.3.5}Fichero de configuraci\IeC {\'o}n}{70}{subsection.5.3.5}
-\contentsline {section}{\numberline {5.4}Soluci\IeC {\'o}n de referencia}{72}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Fundamentos de autolocalizaci\IeC {\'o}n basada en filtros de part\IeC {\'\i }culas}{72}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Soluci\IeC {\'o}n desarrollada}{78}{subsection.5.4.2}
-\contentsline {subsubsection}{\numberline {5.4.2.1}Inicializaci\IeC {\'o}n}{78}{subsubsection.5.4.2.1}
-\contentsline {subsubsection}{\numberline {5.4.2.2}Modelo de observaci\IeC {\'o}n}{79}{subsubsection.5.4.2.2}
-\contentsline {subsubsection}{\numberline {5.4.2.3}Modelo de movimiento}{80}{subsubsection.5.4.2.3}
-\contentsline {subsubsection}{\numberline {5.4.2.4}Generaci\IeC {\'o}n de la siguiente poblaci\IeC {\'o}n}{80}{subsubsection.5.4.2.4}
-\contentsline {section}{\numberline {5.5}Experimentaci\IeC {\'o}n}{81}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Ejecuci\IeC {\'o}n t\IeC {\'\i }pica}{81}{subsection.5.5.1}
-\contentsline {subsubsection}{\numberline {5.5.1.1}Localizaci\IeC {\'o}n est\IeC {\'a}tica}{82}{subsubsection.5.5.1.1}
-\contentsline {subsubsection}{\numberline {5.5.1.2}Localizaci\IeC {\'o}n en movimiento}{84}{subsubsection.5.5.1.2}
-\contentsline {subsection}{\numberline {5.5.2}Autolocalizaci\IeC {\'o}n en situaciones extremas}{86}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Ajuste del modelo de observaci\IeC {\'o}n}{89}{subsection.5.5.3}
-\contentsline {subsection}{\numberline {5.5.4}Ajuste del Ruido Gaussiano en la generaci\IeC {\'o}n de nuevas part\IeC {\'\i }culas}{91}{subsection.5.5.4}
-\contentsline {subsection}{\numberline {5.5.5}Ajuste del tiempo de evoluci\IeC {\'o}n de las part\IeC {\'\i }culas}{92}{subsection.5.5.5}
-\contentsline {section}{\numberline {5.6}Cuadernillo Jupyter Acad\IeC {\'e}mico}{92}{section.5.6}
-\contentsline {chapter}{\numberline {6}Conclusiones}{97}{chapter.6}
-\contentsline {section}{\numberline {6.1}Conclusiones}{97}{section.6.1}
-\contentsline {section}{\numberline {6.2}Trabajos futuros}{99}{section.6.2}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{104}{chapter*.78}
+\contentsline {subsection}{\numberline {1.3.2}Entorno docente JdeRobot-Academy}{10}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Ejercicios recientes}{15}{subsection.1.3.3}
+\contentsline {chapter}{\numberline {2}Objetivos}{18}{chapter.2}
+\contentsline {section}{\numberline {2.1}Objetivos}{18}{section.2.1}
+\contentsline {section}{\numberline {2.2}Requisitos}{19}{section.2.2}
+\contentsline {section}{\numberline {2.3}Metodolog\IeC {\'\i }a}{19}{section.2.3}
+\contentsline {section}{\numberline {2.4}Plan de trabajo}{21}{section.2.4}
+\contentsline {chapter}{\numberline {3}Infraestructura}{23}{chapter.3}
+\contentsline {section}{\numberline {3.1}Simulador Gazebo}{23}{section.3.1}
+\contentsline {section}{\numberline {3.2}Entorno ROS}{25}{section.3.2}
+\contentsline {section}{\numberline {3.3}Entorno JdeRobot}{26}{section.3.3}
+\contentsline {section}{\numberline {3.4}Lenguaje Python}{27}{section.3.4}
+\contentsline {section}{\numberline {3.5}Biblioteca OpenCV}{28}{section.3.5}
+\contentsline {section}{\numberline {3.6}Biblioteca PyQt}{29}{section.3.6}
+\contentsline {section}{\numberline {3.7}IPython 3.0 - Jupyter}{30}{section.3.7}
+\contentsline {chapter}{\numberline {4}Ejercicio de Detecci\IeC {\'o}n y seguimiento de caras con c\IeC {\'a}mara PTZ}{32}{chapter.4}
+\contentsline {section}{\numberline {4.1}Enunciado}{32}{section.4.1}
+\contentsline {section}{\numberline {4.2}Infraestructura}{33}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}C\IeC {\'a}mara Sony Evi d100p}{33}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Ficheros de configuraci\IeC {\'o}n}{35}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Nodo Acad\IeC {\'e}mico}{36}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Arquitectura software}{37}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Interfaz de sensores y actuadores}{37}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Interfaz gr\IeC {\'a}fica y uso desde c\IeC {\'o}digo}{38}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Fichero de configuraci\IeC {\'o}n}{40}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Soluci\IeC {\'o}n de referencia}{41}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Detecci\IeC {\'o}n de caras}{41}{subsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.1.1}Clasificadores M\IeC {\'a}quina}{44}{subsubsection.4.4.1.1}
+\contentsline {subsubsection}{\numberline {4.4.1.2}Eliminaci\IeC {\'o}n de falsos positivos}{44}{subsubsection.4.4.1.2}
+\contentsline {subsection}{\numberline {4.4.2}Control del movimiento de la c\IeC {\'a}mara}{46}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Gesti\IeC {\'o}n de la ``No Detecci\IeC {\'o}n''}{47}{subsection.4.4.3}
+\contentsline {section}{\numberline {4.5}Experimentaci\IeC {\'o}n}{48}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Ejecuci\IeC {\'o}n t\IeC {\'\i }pica}{48}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Comportamiento ante casos extremos}{51}{subsection.4.5.2}
+\contentsline {section}{\numberline {4.6}Cuadernillo acad\IeC {\'e}mico Jupyter}{51}{section.4.6}
+\contentsline {chapter}{\numberline {5}Ejercicio de Autolocalizaci\IeC {\'o}n con L\IeC {\'a}ser}{55}{chapter.5}
+\contentsline {section}{\numberline {5.1}Enunciado}{55}{section.5.1}
+\contentsline {section}{\numberline {5.2}Infraestructura desarrollada}{56}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Modelo de robot de interiores con sensor l\IeC {\'a}ser}{56}{subsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.1.1}Sensor l\IeC {\'a}ser}{57}{subsubsection.5.2.1.1}
+\contentsline {subsubsection}{\numberline {5.2.1.2}Sensor Odom\IeC {\'e}trico}{58}{subsubsection.5.2.1.2}
+\contentsline {subsection}{\numberline {5.2.2}Escenario de casa asim\IeC {\'e}trica}{58}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Modelo de nave sim\IeC {\'e}trica}{60}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Ficheros de configuraci\IeC {\'o}n}{61}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}Nodo Acad\IeC {\'e}mico}{63}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Arquitectura software}{64}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Interfaz de sensores y actuadores y c\IeC {\'o}digo auxiliar}{64}{subsection.5.3.2}
+\contentsline {subsubsection}{\numberline {5.3.2.1}Part\IeC {\'\i }culas}{66}{subsubsection.5.3.2.1}
+\contentsline {subsection}{\numberline {5.3.3}Interfaz gr\IeC {\'a}fica y uso desde c\IeC {\'o}digo}{66}{subsection.5.3.3}
+\contentsline {subsubsection}{\numberline {5.3.3.1}Gr\IeC {\'a}fica de los l\IeC {\'a}seres Real y Te\IeC {\'o}rico}{68}{subsubsection.5.3.3.1}
+\contentsline {subsubsection}{\numberline {5.3.3.2}Mapa de Referencia}{69}{subsubsection.5.3.3.2}
+\contentsline {subsubsection}{\numberline {5.3.3.3}Trayectorias}{71}{subsubsection.5.3.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Comunicaciones con sensores y actuadores}{71}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.5}Fichero de configuraci\IeC {\'o}n}{72}{subsection.5.3.5}
+\contentsline {section}{\numberline {5.4}Soluci\IeC {\'o}n de referencia}{74}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Fundamentos de autolocalizaci\IeC {\'o}n basada en filtros de part\IeC {\'\i }culas}{74}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Soluci\IeC {\'o}n desarrollada}{80}{subsection.5.4.2}
+\contentsline {subsubsection}{\numberline {5.4.2.1}Inicializaci\IeC {\'o}n}{80}{subsubsection.5.4.2.1}
+\contentsline {subsubsection}{\numberline {5.4.2.2}Modelo de observaci\IeC {\'o}n}{81}{subsubsection.5.4.2.2}
+\contentsline {subsubsection}{\numberline {5.4.2.3}Modelo de movimiento}{82}{subsubsection.5.4.2.3}
+\contentsline {subsubsection}{\numberline {5.4.2.4}Generaci\IeC {\'o}n de la siguiente poblaci\IeC {\'o}n}{82}{subsubsection.5.4.2.4}
+\contentsline {section}{\numberline {5.5}Experimentaci\IeC {\'o}n}{83}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Ejecuci\IeC {\'o}n t\IeC {\'\i }pica}{83}{subsection.5.5.1}
+\contentsline {subsubsection}{\numberline {5.5.1.1}Localizaci\IeC {\'o}n est\IeC {\'a}tica}{84}{subsubsection.5.5.1.1}
+\contentsline {subsubsection}{\numberline {5.5.1.2}Localizaci\IeC {\'o}n en movimiento}{86}{subsubsection.5.5.1.2}
+\contentsline {subsection}{\numberline {5.5.2}Autolocalizaci\IeC {\'o}n en situaciones extremas}{88}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Ajuste del modelo de observaci\IeC {\'o}n}{91}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.4}Ajuste del Ruido Gaussiano en la generaci\IeC {\'o}n de nuevas part\IeC {\'\i }culas}{93}{subsection.5.5.4}
+\contentsline {subsection}{\numberline {5.5.5}Ajuste del tiempo de evoluci\IeC {\'o}n de las part\IeC {\'\i }culas}{94}{subsection.5.5.5}
+\contentsline {section}{\numberline {5.6}Cuadernillo acad\IeC {\'e}mico Jupyter}{94}{section.5.6}
+\contentsline {chapter}{\numberline {6}Conclusiones}{99}{chapter.6}
+\contentsline {section}{\numberline {6.1}Conclusiones}{99}{section.6.1}
+\contentsline {section}{\numberline {6.2}Trabajos futuros}{101}{section.6.2}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{106}{chapter*.77}

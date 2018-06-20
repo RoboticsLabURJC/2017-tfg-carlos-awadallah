@@ -58,7 +58,7 @@ El valor de \textit{Pan} puede estar entre -164º y 164º y su velocidad puede t
 La cámara utilizará \textit{drivers} para el acceso a la imagen y a los actuadores y para la comunicación con el nodo académico.
 
 \subsection{Ficheros de configuración}
-Al haber varios \textit{drivers} involucrados, son necesarios ciertos ficheros de configuración en el nodo académico para calibrar las conexiones con ellos. Dado que el primero de ellos es un driver de ROS (\textit{usb\_cam}), emplea la herramienta \textit{roslaunch}\footnote{\url{http://wiki.ros.org/roslaunch}}, que permite lanzar fácilmente múltiples nodos ROS de manera local o remota. Para ello necesita un fichero de configuración XML como el siguiente (Figura 4.4): 
+Al haber varios \textit{drivers} involucrados, son necesarios ciertos ficheros de configuración en el nodo académico para calibrar las conexiones con ellos. Dado que el primero de ellos es un driver de ROS (\textit{usb\_cam}), emplea la herramienta \textit{roslaunch}\footnote{\url{http://wiki.ros.org/roslaunch}}, que permite lanzar fácilmente múltiples nodos ROS de manera local o remota. Para ello necesita un fichero de configuración XML como el de la Figura 4.4: 
 
 \begin{figure}[H]
   \begin{center}
@@ -146,12 +146,11 @@ Los métodos que pone a disposición del alumno son los siguientes:
 \end{itemize}
 Con ellos el estudiante podrá establecer imágenes en el GUI desde su código implementado.
 
-\subsection{Código auxiliar: Clase CameraSegment}
-Dentro del nodo académico existe la clase \textit{CameraSegment}. Esta clase se ha creado por controlar y establecer la visualización de las imágenes que tienen que ver con la práctica, sustituyéndolas por imágenes negras si son nulas o estableciendo el vídeo capturado por la cámara y el vídeo segmentado creado y seleccionado por el programador.
+Además, dentro del nodo académico existe la clase \textit{CameraSegment}. Esta clase se ha creado por controlar y establecer la visualización de las imágenes que tienen que ver con la práctica, sustituyéndolas por imágenes negras si son nulas o estableciendo el vídeo capturado por la cámara y el vídeo segmentado creado y seleccionado por el programador.
 
-El objeto \textit{self.camera} del cual dispone el algoritmo de percepción y control se construye a partir de ésta clase, por lo cual incluye algunos métodos propios además de los esperados por la cámara. Hablamos de las funciones que permiten mostrar las imágenes en el interfaz, descritas en 4.3.3. Por tanto, actúa de nexo entre la herramienta de segmentación (\textit{segment widget}) y el algoritmo, proporcionando un API fácil de utilizar.
+El objeto \textit{self.camera} del cual dispone también el algoritmo de percepción y control se construye a partir de ésta clase, por lo cual incluye algunos métodos propios además de los esperados por la cámara. Hablamos de las funciones que permiten mostrar las imágenes en el interfaz, descritas en 4.3.3. Por tanto, actúa de nexo entre la herramienta de segmentación (\textit{segment widget}) y el algoritmo, proporcionando un API fácil de utilizar.
 
-Por último, esta clase actúa de intermediario entre la cámara y el interfaz, conectando ambos componentes. Esto es necesario dado que las imágenes capturadas por la cámara y las que espera el interfaz gráfico no son completamente compatibles: para poder ser visualizadas, las imágenes deben redimensionarse para encajar en la aplicación gráfica.
+Por último, esta clase actúa de intermediario entre la cámara y el interfaz gráfico, conectando ambos componentes. Esto es necesario dado que las imágenes capturadas por la cámara y las que espera el interfaz gráfico no son completamente compatibles: para poder ser visualizadas, las imágenes deben redimensionarse para encajar en la aplicación gráfica.
 
 \subsection{Fichero de configuración}
 El nodo académico requiere un fichero de configuración que indique los \textit{endpoints} que utilizan la cámara y los motores PT. Este archivo tiene extensión \textit{.yml}, lo cual implica que debe seguir el formato de serialización de datos YAML, el cual produce datos fáciles de leer por humanos y máquinas para todos los lenguajes de programación. Tiene el siguiente aspecto:
@@ -169,7 +168,7 @@ Se puede ver claramente que las interfaces empleadas por cámara y motores son d
 Por último, el nodo académico incluye dos ficheros de descripción XML, que servirán de entrenamiento para los clasificadores que necesitaremos en la segmentación, explicados con mayor detalle en el apartado 4.4.1.1. 
 
 \section{Solución de referencia}
-En esta sección, abordaremos brevemente los fundamentos de segmentación y detección de caras y el control reactivo gradual de hardware. Con ello construiremos una solución que se establecerá como solución de referencia, pero que sólo es uno de los muchos posibles métodos con el cual alcanzar el fin. El código quedará recogido en el fichero \textit{MyAlgorithm.py}, que es de naturaleza iterativa, de manera que en cada iteración se percibe, se actúa en consecuencia y se controla. Se implementa dentro del método \textit{execute}, el cual debe contener la lógica que se ejecuta de manera cíclica en el hilo de percepción y control.
+En esta sección abordaremos brevemente los fundamentos de segmentación y detección de caras y el control reactivo gradual de hardware. Con ello construiremos una solución que se establecerá como solución de referencia, pero que sólo es uno de los muchos posibles métodos con el cual alcanzar el fin. El código quedará recogido en el fichero \textit{MyAlgorithm.py}, que es de naturaleza iterativa, de manera que en cada iteración se percibe, se actúa en consecuencia y se controla. Se implementa dentro del método \textit{execute}, el cual debe contener la lógica que se ejecuta de manera cíclica en el hilo de percepción y control.
 
 \subsection{Detección de caras}
 Las cámaras que incorporan los robots son una de las principales fuentes de información con las que cuentan, pero toda esta información es inútil sin la lógica que sea capaz de extraer la información relevante de la imagen. Algoritmos incapaces de diferenciar lo necesario de lo inane sólo conseguirán sobrecargar a la máquina de información inoperante, reduciendo su rendimiento e incluso llegando a producir comportamientos indeseados.
@@ -184,7 +183,7 @@ Aunque resulte sorprendente, la forma de abordar esta tarea con mayor éxito es 
 
 Hay muchas motivaciones para usar características en la comparación en lugar de hacerlo con los píxeles directamente. La razón más común es que las características pueden codificar conocimiento del dominio \textit{ad-hoc}, lo cual es difícil usando una cantidad finita de datos de entrenamiento. Para este sistema también hay una segunda motivación crítica para emplear características: el sistema basado en características funciona mucho más rápido que un sistema basado en píxeles. 
 
-Cada “ventana” de la Figura 4.10 se coloca en la imagen a segmentar para calcular una sola característica. Esta característica es un valor único que se obtiene al restar la suma de píxeles debajo de la parte blanca de la ventana de la suma de los píxeles debajo de la parte negra de la ventana. Así, todos los tamaños posibles de cada ventana se colocan en todas las ubicaciones posibles de cada imagen para calcular muchas características. Por ejemplo, en la imagen (Figura 4.10) estamos extrayendo dos características. La primera se centra en la propiedad de que la región de los ojos a menudo es más oscura que el área de la nariz y las mejillas. La segunda característica se basa en la propiedad de que los ojos son más oscuros que el puente de la nariz.
+Cada “ventana” de la Figura 4.10 se coloca en la imagen a segmentar para calcular una sola característica. Esta característica es un valor único que se obtiene al restar la suma de píxeles debajo de la parte blanca de la ventana de la suma de los píxeles debajo de la parte negra de la ventana. Así, todos los tamaños posibles de cada ventana se colocan en todas las ubicaciones posibles de cada imagen para calcular muchas características. Por ejemplo, en la Figura 4.10 estamos extrayendo dos características. La primera se centra en la propiedad de que la región de los ojos a menudo es más oscura que el área de la nariz y las mejillas. La segunda característica se basa en la propiedad de que los ojos son más oscuros que el puente de la nariz.
 
 \begin{figure}[H]
   \begin{center}
@@ -253,11 +252,12 @@ En las cámaras PTZ estas siglas indican el control que se puede ejercer sobre l
 Ahora bien, tratándose de control en tiempo real, ¿puede tomar cada componente cualquier valor dentro de los límites del hardware? No, debemos contar con el tiempo físico que tarda la cámara en ejecutar el movimiento solicitado. También debe tenerse en cuenta el \textit{buffer} asociado, que encola mensajes hasta que puedan ser atendidos. Si se envía la misma orden dos veces antes de que el hardware sea capaz de terminar la primera (algo muy común), el resultado se traducirá en un “temblor” u oscilación de la cámara entorno a esos valores.
 
 Es por eso que hemos hablado de control gradual. Se hace necesario que el movimiento del cuello mecánico sea a la vez fluido y suave, sin ejecutar movimientos demasiado bruscos, y sin oscilaciones que repercutan en la calidad de la imagen captada, para que el algoritmo de visión pueda seguir funcionando de manera óptima durante los movimientos.
-Por ello, hemos decidido implementar un control que trabaje en incrementos o sustracciones pequeñas en grados de los valores \textit{Pan} y \textit{Tilt}. Con ello conseguimos también aprovechar la máxima velocidad de movimiento que ofrece el hardware, sin balanceos, obteniendo un movimiento adecuado en combinación con el tiempo de refresco del hilo de ejecución de algoritmo. En cada iteración se calcula el centro de la cara detectada y el control trabaja para que dicho centro coincida con el centro de la imagen captada. En caso de no ser así, se obtendrá el error de posición y se modificarán los valores de control de la cámara de la forma conveniente. En caso de coincidencia, se detendrán los motores y se hará que la cámara permanezca en espera al próximo movimiento.
+Por ello, hemos decidido implementar un control (Figura 4.14) que trabaje en incrementos o sustracciones pequeñas en grados de los valores \textit{Pan} y \textit{Tilt}. Con ello conseguimos también aprovechar la máxima velocidad de movimiento que ofrece el hardware, sin balanceos, obteniendo un movimiento adecuado en combinación con el tiempo de refresco del hilo de ejecución de algoritmo. En cada iteración se calcula el centro de la cara detectada y el control trabaja para que dicho centro coincida con el centro de la imagen captada. En caso de no ser así, se obtendrá el error de posición y se modificarán los valores de control de la cámara de la forma conveniente. En caso de coincidencia, se detendrán los motores y se hará que la cámara permanezca en espera al próximo movimiento.
 
 \begin{figure}[H]
   \begin{center}
-    \includegraphics[width=0.98\linewidth, height=17cm]{figures/snippet1ff.png}
+    \includegraphics[width=0.98\linewidth]{figures/snippet1ff.png}
+		\caption{Código del control de la cámara}
 		\label{fig.snippet1ff}
 		\end{center}
 \end{figure}
@@ -297,7 +297,7 @@ Se ha preparado un documento de texto (\textit{README.md}) que sirve de guía pa
 	\end{figure}
 \end{enumerate}
 
-El resultado de la ejecución de la solución canónica se muestra en la Figura 4.14. Además, dos vídeos demostrativos del comportamiento pueden verse en \footnote{\url{https://www.youtube.com/watch?v=pdSPnftumf8}} y \footnote{\url{https://www.youtube.com/watch?v=YZEMIXkXwM0}}
+El resultado de la ejecución de la solución canónica se muestra en la Figura 4.15. Además, dos vídeos demostrativos del comportamiento pueden verse en \footnote{\url{https://www.youtube.com/watch?v=pdSPnftumf8}} y \footnote{\url{https://www.youtube.com/watch?v=YZEMIXkXwM0}}
 
 \begin{figure}[H]
   \begin{center}
@@ -316,13 +316,13 @@ Por otro lado, probamos la ejecución en situaciones de contraluz. En este caso,
 
 Por último, en situaciones con muchos candidatos a caras (posters, muñecos y elementos con formas abstractas), el algoritmo se equivocaba el 5\% de las veces, siendo que en el resto de casos escogía el candidato correcto para seguir.
 
-\section{Cuadernillo Jupyter Académico}
+\section{Cuadernillo académico Jupyter}
 En el apartado 3.7 se introdujo la herramienta Jupyter Notebook,  que permite al usuario crear y compartir documentos que contengan multitud de elementos y widgets programables a través de distintos lenguajes. Hemos ampliado el alcance inicial de esta práctica preparando, además de la versión con nodo académico en python, una versión en un cuadernillo Jupyter. Esto permite que el estudiante no tenga que
 editar el fichero de python directamente, sino utilizar el navegador web para ello. Esto abre puertas en JdeRobot-Academy hacia versiones multiplataforma de los ejercicios, especialmente los que involucran al simulador Gazebo.
 
 Antes de comenzar, debe instalarse el código del proyecto, proceso del que se detallen las instrucciones en la página oficial del proyecto\footnote{\url{http://jupyter.org/install}}.
 
-Hemos preparado un \textit{Notebook} de Jupyter al que hemos llamado \textit{follow\_face.ipynb}, que junto con algunos cambios en la estructura del nodo académico proporcionan el soporte necesario para tener la misma práctica disponible a través de esta aplicación. En concreto, el nodo programado en el fichero \textit{follow\_face.py} de la práctica original ha sido recodificado para tener estructura de clase Python: la clase \textit{FollowFace}, para poder ser instanciada desde el código del cuadernillo, que detallaremos un poco más adelante. Los cambios más significativos se producen al eliminar la interfaz gráfica directa, dado que será ahora la propia aplicación web la que actúe de interfaz de usuario. Eliminados los componentes gráficos y los widgets que mostraban las imágenes en él, se ha creado una nueva clase (la clase \textit{Printer}, Figura 4.15) que permite visualizar las imágenes que el alumno establece a través de métodos disponibles en la clase nodo (\textit{FollowFace}) en la interfaz de Jupyter. Para ello utilizamos los métodos disponibles en la librería \textit{matplotlib} y su módulo \textit{pyplot},  una colección de funciones cuyo estilo es como un comando que hacen que \textit{matplotlib} funcione como MATLAB en cuanto a representaciones, lo cual simplifica la visualización en la herramienta. 
+Hemos preparado un \textit{Notebook} de Jupyter al que hemos llamado \textit{follow\_face.ipynb}, que junto con algunos cambios en la estructura del nodo académico proporcionan el soporte necesario para tener la misma práctica disponible a través de esta aplicación. En concreto, el nodo programado en el fichero \textit{follow\_face.py} de la práctica original ha sido recodificado para tener estructura de clase Python: la clase \textit{FollowFace}, para poder ser instanciada desde el código del cuadernillo, que detallaremos un poco más adelante. Los cambios más significativos se producen al eliminar la interfaz gráfica directa, dado que será ahora la propia aplicación web la que actúe de interfaz de usuario. Eliminados los componentes gráficos y los widgets que mostraban las imágenes en él, se ha creado una nueva clase (la clase \textit{Printer}, Figura 4.16) que permite visualizar las imágenes que el alumno establece a través de métodos disponibles en la clase nodo (\textit{FollowFace}) en la interfaz de Jupyter. Para ello utilizamos los métodos disponibles en la librería \textit{matplotlib} y su módulo \textit{pyplot},  una colección de funciones cuyo estilo es como un comando que hacen que \textit{matplotlib} funcione como MATLAB en cuanto a representaciones, lo cual simplifica la visualización en la herramienta. 
 
 \begin{figure}[H]
   \begin{center}
@@ -336,7 +336,7 @@ Para asociar el código del cuadernillo con el del nodo existente se ha usado la
 
 Por último, necesitamos de la intervención de dos \textit{drivers} para controlar la cámara de la que disponemos, de manera que la adaptación del nodo incorpora el lanzamiento de dos subprocesos, uno para cada \textit{driver}, a través de la librería \textit{subprocess}, que permite generar nuevos procesos y conectarse a sus tuberías de entrada / salida / error, además de obtener sus códigos de retorno. Con esto, y unas pequeñas incorporaciones al nodo para poder parar o ejecutar el algoritmo desde Jupyter, completamos la práctica a través de la aplicación web. 
 
-El cuadernillo generado (Figura 4.16) no sólo incorpora celdillas de código ejecutable embebidas, sino que también incluye imágenes representativas y texto descriptivo para orientar al alumno en todo momento (durante la ejecución, aportando información adicional para abordar la práctica y explicando el API de utilización con los nuevos métodos de visualización y actualización del código. 
+El cuadernillo generado (Figura 4.17) no sólo incorpora celdillas de código ejecutable embebidas, sino que también incluye imágenes representativas y texto descriptivo para orientar al alumno en todo momento (durante la ejecución, aportando información adicional para abordar la práctica y explicando el API de utilización con los nuevos métodos de visualización y actualización del código. 
 
 Así, el alumno puede realizar la práctica de manera totalmente guiada, y ejecutar los distintos pasos que va programando para observar su salida con herramientas disponibles, para depurar errores o matizar su solución.
 

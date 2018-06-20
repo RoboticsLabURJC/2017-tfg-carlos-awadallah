@@ -1,12 +1,12 @@
 \chapter{Objetivos}\label{cap.objetivos}
-En este punto ya hemos introducido el contexto en el que desarrolla el trabajo, es momento de describir los objetivos que se han tratado de alcanzar, los requisitos para las soluciones desarrolladas y la metodología seguida para su consecución.
+En este punto ya hemos introducido el contexto en el que desarrolla el trabajo, es momento de describir los objetivos concretos que se han tratado de alcanzar, los requisitos para las soluciones desarrolladas y la metodología seguida para su consecución.
 
 \section{Objetivos}
-La meta de este proyecto consiste en la creación de dos nuevas prácticas de sistemas robóticos para el entorno docente JdeRobot-Academy, una primera que consistirá en seguimiento de caras a través de una cámara y otra sobre auto localización de un robot basada en láser. Para cada una de ellas se creará la infraestructura necesaria y una solución de referencia.
+La meta de este proyecto consiste en la creación de dos nuevas prácticas de sistemas robóticos para el entorno docente JdeRobot-Academy, una primera que consistirá en seguimiento de caras a través de una cámara mócil y otra sobre auto localización de un robot basada en láser. Para cada una de ellas se creará la infraestructura necesaria y una solución de referencia.
 
-En primer lugar, la práctica de seguimiento de caras utilicará una cámara móvil montada en un cuello mecánico, la cual puede apuntarse hacia varias direcciones, para que el alumno ponga en práctica sus conocimientos de segmentación de imagen buscando posibles caras de personas en la imágenes que le sirve dicha cámara, y generando órdenes para los motores de la cámara de modo que esta siga con la mirada el movimiento de la persona que tiene delante.
+En primer lugar, la práctica de seguimiento de caras utilicará una cámara móvil montada en un cuello mecánico, la cual puede apuntarse hacia varias direcciones, para que el alumno ponga en práctica sus conocimientos de segmentación de imagen buscando posibles caras de personas en las imágenes, y generando órdenes para los motores de la cámara de modo que esta siga con la mirada el movimiento de la persona que tiene delante.
 
-La segunda práctica creada es sobre un robot móvil y busca resolver un problema de auto localización basada en láser, de manera que dicho robot sepa en todo momento su posición y orientación en el entorno que le rodea, valiéndose únicamente de un sensor láser incorporado.
+La segunda práctica es sobre un robot móvil y busca resolver el problema de auto localización basada en láser, de manera que dicho robot sepa en todo momento su posición y orientación en el entorno que le rodea, valiéndose únicamente de un sensor láser incorporado.
 
 \section{Requisitos} 
 El software desarrollado, además de proporcionar las dos prácticas deseadas, deberá cumplir estos requisitos de partida del proyecto:
@@ -51,15 +51,9 @@ Para lograr los objetivos descritos, se han seguido las siguientes etapas de tra
 	\item[--] \textbf{Familiarización con el entorno JdeRobot}. Tras la descarga e instalación del software  involucrado, incluyendo dependencias, simulador y bibliotecas necesarias, se tratará de entrar en contacto con el entorno JdeRobot modificando y pulimentando algunas prácticas existentes para añadir mejoras, por ejemplo, en sus interfaces gráficas.
 	\item[--] \textbf{Toma de contacto con el simulador Gazebo}. En esta etapa se han estudiado distintos ejemplos disponibles en la web de Gazebo\footnote{\url{http://gazebosim.org/tutorials}} y de JdeRobot. Además, se ha estudiado el funcionamiento básico de los \textit{plugins}  que Gazebo emplea para controlar los robots, sus sensores y sus actuadores. Esto ha implicado la investigación del lenguaje de programación C++, el cual también ayudará a comprender los \textit{plugins} ROS.
 	\item[--] \textbf{Estudiar las bibliotecas involucradas}, entre las cuales destacan OpenCV, Threading, NumPy y PyQt5.
-\end{itemize}
-
-Una vez aquí, se centrarán los esfuerzos en…
-
-\begin{itemize}
 	\item[--] \textbf{Desarrollo de la infraestructura para la práctica de seguimiento de caras}. Manejo de los \textit{drivers} involucrados para el control de los motores y de la cámara. Se creará el nodo académico que albergará el código del estudiante. También se creará una versión de la práctica a través de Jupyter.
 	\item[--] \textbf{Programación de una solución de referencia para el seguimiento de caras}.
 	\item[--] \textbf{Preparación de la infraestructura para el ejercicio de autolocalización basada en láser}. Se desarrollará el \textit{driver} para el robot simulado. Se creará el nodo académico que alberga el código del estudiante, además de un cuadernillo de Jupyter con la misma funcionalidad.
 que alberga alternativamente el código del estudiante.
 	\item[--] \textbf{Programación de una solución de referencia para la autolocalización}.
-	\item[--] \textbf{Obtención de conclusiones} acerca de lo estudiado, con las cuáles completar la formación en el campo.
 \end{itemize}

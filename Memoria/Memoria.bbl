@@ -1,5 +1,15 @@
 \begin{thebibliography}{10}
 
+\bibitem{tfg1}
+Irene~Lope Rodr\'iguez.
+\newblock {Nuevas Pr\'acticas en el Entorno Docente de Rob'otica
+  JdeRobot-Academy}, 2018.
+
+\bibitem{tfg2}
+Vanessa~Fern\'andez Mart\'inez.
+\newblock {Nuevas Pr\'acticas en el Entorno Docente de Rob'otica
+  JdeRobot-Academy}, 2017.
+
 \bibitem{robotics1}
 John~J. Craig.
 \newblock {\em {Introduction to Robotics: Mechanics and Control}}.
@@ -61,13 +71,6 @@ Educatronics.
 J.M. Ca'nas, A.~Mart\'i, E.~Perdices, F.~Rivas, and R.~Calvo.
 \newblock {Entorno docente para la programaci\'on de la inteligencia de los
   robots. Iberoamericana de Autom\'atica e Inform\'atica Industrial}, 2016.
-
-\bibitem{robotics13}
-Rob\'otica en~la Universidad~de Alcal\'a.
-\newblock {Proyecto TuBot 2015,\textit{Alcabot}}.
-\newblock
-  \url{http://asimov.depeca.uah.es/robotica/mod/resource/view.php?id=1188},
-  2015.
 
 \bibitem{desarrollo1}
 Galo~Fari'no R.
