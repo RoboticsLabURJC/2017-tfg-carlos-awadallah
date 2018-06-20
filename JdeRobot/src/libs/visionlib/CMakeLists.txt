@@ -1,0 +1,12 @@
+list_subdirectories( LIST_LIBS ${CMAKE_CURRENT_SOURCE_DIR} 1)
+
+
+FOREACH (libs ${LIST_LIBS})
+        ADD_SUBDIRECTORY (${libs})
+ENDFOREACH()
+
+install( FILES visionlib.h
+    DESTINATION ${CMAKE_INSTALL_PREFIX}/include/jderobot/visionlib/
+    COMPONENT colorspaces
+)
+

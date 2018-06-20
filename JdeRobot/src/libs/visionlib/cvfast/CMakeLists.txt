@@ -1,0 +1,16 @@
+SET(cvFast_CVFAST cvfast.cpp)
+JDEROBOT_ADD_LIBRARY(cvfast SHARED ${cvFast_CVFAST})
+TARGET_LINK_LIBRARIES(cvfast ${OPENGL_LIBRARIES})
+
+
+### Install
+install(TARGETS cvfast
+    DESTINATION ${CMAKE_INSTALL_PREFIX}/lib
+    COMPONENT cvfast
+)
+
+FILE(GLOB_RECURSE HEADERS_FILES ${CMAKE_CURRENT_SOURCE_DIR}/*.h)
+install( FILES ${HEADERS_FILES}
+    DESTINATION ${CMAKE_INSTALL_PREFIX}/include/jderobot/visionlib/cvfast
+    COMPONENT cvfast
+)

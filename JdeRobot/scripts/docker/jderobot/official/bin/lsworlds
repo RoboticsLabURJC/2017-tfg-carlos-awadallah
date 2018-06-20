@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ls /opt/jderobot/share/jderobot/gazebo/worlds
