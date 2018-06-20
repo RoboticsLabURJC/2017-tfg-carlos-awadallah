@@ -1,5 +1,4 @@
 \babel@toc {spanish}{}
-\contentsline {chapter}{\'Indice de figuras}{1}{chapter*.4}
 \contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{2}{chapter.1}
 \contentsline {section}{\numberline {1.1}Rob\IeC {\'o}tica}{2}{section.1.1}
 \contentsline {section}{\numberline {1.2}Software Rob\IeC {\'o}tico}{5}{section.1.2}
@@ -81,4 +80,4 @@
 \contentsline {chapter}{\numberline {6}Conclusiones}{99}{chapter.6}
 \contentsline {section}{\numberline {6.1}Conclusiones}{99}{section.6.1}
 \contentsline {section}{\numberline {6.2}Trabajos futuros}{101}{section.6.2}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{106}{chapter*.77}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{106}{chapter*.76}
