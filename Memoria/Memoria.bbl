@@ -18,12 +18,15 @@ John~J. Craig.
 \bibitem{robotics2}
 Simone Ceriani and Martino Migliavacca.
 \newblock {\em {Middleware in robotics. Advanced Methods of Information
-  Technology for Autonomous Robotics}}.
+  Technology for Autonomous Robotics. Internal Report For Advanced Methods of
+  Information Technology for Authonomous Robotics, Politecnico di Milano,
+  2012.}}
 
 \bibitem{robotics3}
 J.~Baillie, A.~Demaille, Q.~Hocquet, M.~Nottale, and S~Tardieu.
 \newblock {\em {The Urbi Universal Platform for Robotics. Simulation, Modeling
-  and Programming for Autonomous Robots}}.
+  and Programming for Autonomous Robots. 4th International Conference, SIMPAR
+  2014, Bergamo, Italia, 2014.}}
 
 \bibitem{robotics4}
 Historia de la rob\'otica.
@@ -70,7 +73,8 @@ Educatronics.
 \bibitem{robotics12}
 J.M. Ca'nas, A.~Mart\'i, E.~Perdices, F.~Rivas, and R.~Calvo.
 \newblock {Entorno docente para la programaci\'on de la inteligencia de los
-  robots. Iberoamericana de Autom\'atica e Inform\'atica Industrial}, 2016.
+  robots. Revista Iberoamericana de Autom\'atica e Inform\'atica Industrial},
+  2016.
 
 \bibitem{desarrollo1}
 Galo~Fari'no R.
@@ -89,12 +93,13 @@ Galo~Fari'no R.
 
 \bibitem{jderobot1}
 J.M Ca'nas.
-\newblock {Programaci\'on de robots con la plataforma Jderobot}, 2009.
+\newblock {Programaci\'on de robots con la plataforma JdeRobot. Universidad de
+  M\'alaga.}, 2009.
 
 \bibitem{jderobot2}
 Jos\'e~M. Ca'nas, Jos\'e~A. Fern\'andez, Diego Jim\'enez, and Jorge Vela.
 \newblock {Programaci\'on de aplicaciones para drones con el entorno software
-  JdeRobot.}, 2018.
+  JdeRobot. Congreso CivilDRON 2018}, 2018.
 
 \bibitem{python1}
 {\textquestiondown Qu\'e es Python?}
@@ -166,9 +171,9 @@ Jos\'e~M. Ca'nas, Jos\'e~A. Fern\'andez, Diego Jim\'enez, and Jorge Vela.
 
 \bibitem{followface4}
 Paul Viola and Michael~J. Jones.
-\newblock {Robust Real-Time Face Detection}.
-\newblock
-  \url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.93.8268&rep=rep1&type=pdf}.
+\newblock {Robust Real-Time Face Detection. SECOND INTERNATIONAL WORKSHOP ON
+  STATISTICAL AND COMPUTATIONAL THEORIES OF VISION - MODELING, LEARNING,
+  COMPUTING, AND SAMPLING. Vancouver, Canad\'a, 2001.}
 
 \bibitem{followface5}
 Shai Shalev-Shwartz and Shai Ben-David.

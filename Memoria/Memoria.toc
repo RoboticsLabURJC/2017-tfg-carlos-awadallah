@@ -54,30 +54,30 @@
 \contentsline {section}{\numberline {5.3}Nodo Acad\IeC {\'e}mico}{63}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Arquitectura software}{64}{subsection.5.3.1}
 \contentsline {subsection}{\numberline {5.3.2}Interfaz de sensores y actuadores y c\IeC {\'o}digo auxiliar}{64}{subsection.5.3.2}
-\contentsline {subsubsection}{\numberline {5.3.2.1}Part\IeC {\'\i }culas}{66}{subsubsection.5.3.2.1}
+\contentsline {subsubsection}{\numberline {5.3.2.1}Part\IeC {\'\i }culas}{65}{subsubsection.5.3.2.1}
 \contentsline {subsection}{\numberline {5.3.3}Interfaz gr\IeC {\'a}fica y uso desde c\IeC {\'o}digo}{66}{subsection.5.3.3}
 \contentsline {subsubsection}{\numberline {5.3.3.1}Gr\IeC {\'a}fica de los l\IeC {\'a}seres Real y Te\IeC {\'o}rico}{68}{subsubsection.5.3.3.1}
 \contentsline {subsubsection}{\numberline {5.3.3.2}Mapa de Referencia}{69}{subsubsection.5.3.3.2}
 \contentsline {subsubsection}{\numberline {5.3.3.3}Trayectorias}{71}{subsubsection.5.3.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Comunicaciones con sensores y actuadores}{71}{subsection.5.3.4}
-\contentsline {subsection}{\numberline {5.3.5}Fichero de configuraci\IeC {\'o}n}{72}{subsection.5.3.5}
-\contentsline {section}{\numberline {5.4}Soluci\IeC {\'o}n de referencia}{74}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Fundamentos de autolocalizaci\IeC {\'o}n basada en filtros de part\IeC {\'\i }culas}{74}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.3.4}Comunicaciones con sensores y actuadores}{72}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.5}Fichero de configuraci\IeC {\'o}n}{73}{subsection.5.3.5}
+\contentsline {section}{\numberline {5.4}Soluci\IeC {\'o}n de referencia}{75}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Autolocalizaci\IeC {\'o}n basada en filtros de part\IeC {\'\i }culas}{75}{subsection.5.4.1}
 \contentsline {subsection}{\numberline {5.4.2}Soluci\IeC {\'o}n desarrollada}{80}{subsection.5.4.2}
-\contentsline {subsubsection}{\numberline {5.4.2.1}Inicializaci\IeC {\'o}n}{80}{subsubsection.5.4.2.1}
+\contentsline {subsubsection}{\numberline {5.4.2.1}Inicializaci\IeC {\'o}n}{81}{subsubsection.5.4.2.1}
 \contentsline {subsubsection}{\numberline {5.4.2.2}Modelo de observaci\IeC {\'o}n}{81}{subsubsection.5.4.2.2}
 \contentsline {subsubsection}{\numberline {5.4.2.3}Modelo de movimiento}{82}{subsubsection.5.4.2.3}
-\contentsline {subsubsection}{\numberline {5.4.2.4}Generaci\IeC {\'o}n de la siguiente poblaci\IeC {\'o}n}{82}{subsubsection.5.4.2.4}
-\contentsline {section}{\numberline {5.5}Experimentaci\IeC {\'o}n}{83}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Ejecuci\IeC {\'o}n t\IeC {\'\i }pica}{83}{subsection.5.5.1}
-\contentsline {subsubsection}{\numberline {5.5.1.1}Localizaci\IeC {\'o}n est\IeC {\'a}tica}{84}{subsubsection.5.5.1.1}
-\contentsline {subsubsection}{\numberline {5.5.1.2}Localizaci\IeC {\'o}n en movimiento}{86}{subsubsection.5.5.1.2}
-\contentsline {subsection}{\numberline {5.5.2}Autolocalizaci\IeC {\'o}n en situaciones extremas}{88}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Ajuste del modelo de observaci\IeC {\'o}n}{91}{subsection.5.5.3}
-\contentsline {subsection}{\numberline {5.5.4}Ajuste del Ruido Gaussiano en la generaci\IeC {\'o}n de nuevas part\IeC {\'\i }culas}{93}{subsection.5.5.4}
-\contentsline {subsection}{\numberline {5.5.5}Ajuste del tiempo de evoluci\IeC {\'o}n de las part\IeC {\'\i }culas}{94}{subsection.5.5.5}
-\contentsline {section}{\numberline {5.6}Cuadernillo acad\IeC {\'e}mico Jupyter}{94}{section.5.6}
-\contentsline {chapter}{\numberline {6}Conclusiones}{99}{chapter.6}
-\contentsline {section}{\numberline {6.1}Conclusiones}{99}{section.6.1}
-\contentsline {section}{\numberline {6.2}Trabajos futuros}{101}{section.6.2}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{106}{chapter*.76}
+\contentsline {subsubsection}{\numberline {5.4.2.4}Generaci\IeC {\'o}n de la siguiente poblaci\IeC {\'o}n}{83}{subsubsection.5.4.2.4}
+\contentsline {section}{\numberline {5.5}Experimentaci\IeC {\'o}n}{84}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Ejecuci\IeC {\'o}n t\IeC {\'\i }pica}{85}{subsection.5.5.1}
+\contentsline {subsubsection}{\numberline {5.5.1.1}Localizaci\IeC {\'o}n est\IeC {\'a}tica}{85}{subsubsection.5.5.1.1}
+\contentsline {subsubsection}{\numberline {5.5.1.2}Localizaci\IeC {\'o}n en movimiento}{87}{subsubsection.5.5.1.2}
+\contentsline {subsection}{\numberline {5.5.2}Autolocalizaci\IeC {\'o}n en situaciones extremas}{89}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Ajuste del modelo de observaci\IeC {\'o}n}{92}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.4}Ajuste del Ruido Gaussiano en la generaci\IeC {\'o}n de part\IeC {\'\i }culas}{94}{subsection.5.5.4}
+\contentsline {subsection}{\numberline {5.5.5}Ajuste del tiempo de evoluci\IeC {\'o}n de las part\IeC {\'\i }culas}{95}{subsection.5.5.5}
+\contentsline {section}{\numberline {5.6}Cuadernillo acad\IeC {\'e}mico Jupyter}{95}{section.5.6}
+\contentsline {chapter}{\numberline {6}Conclusiones}{100}{chapter.6}
+\contentsline {section}{\numberline {6.1}Conclusiones}{100}{section.6.1}
+\contentsline {section}{\numberline {6.2}Trabajos futuros}{102}{section.6.2}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{107}{chapter*.75}
